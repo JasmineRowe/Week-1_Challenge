@@ -45,3 +45,11 @@ nav ul li a {
     color: var(--bg-color);
     font-weight: bold;
 }
+
+
+a.option {
+    color:var(--header-bg-color);
+    /* Hardcoded red */
+    text-decoration: none;
+    width: 50%;
+}
