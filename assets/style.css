@@ -11,16 +11,14 @@
  }
 
 
- 
+
 /* Basic Page Styles */
 
-  
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: var(--bg-color);
-    
+    background-color: var(--header-bg-color);
 }
 
 /* Navigation Bar */
@@ -45,6 +43,5 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: var(--bg-color);
-        /* Hardcoded white */
     font-weight: bold;
 }
