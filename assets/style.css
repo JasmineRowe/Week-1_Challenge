@@ -1,0 +1,20 @@
+
+
+ :root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --table-border-color: hsl(160, 24%, 64%);
+    --header-bg-color: #074734;
+    --header-text-color: #ffffff;
+    --box-text-color: #e7e4e4;
+
+ }
+
+
+/* Navigation Bar */
+
+nav {
+    background-color: var(--header-bg-color);
+    padding: 15px; 
+    text-align: center;
+}
