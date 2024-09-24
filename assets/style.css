@@ -1,12 +1,13 @@
 
 
  :root {
-    --bg-color: #ffffff;
+    --bg-color: #C6CDBE;
     --text-color: #000000;
-    --table-border-color: hsl(160, 24%, 64%);
-    --header-bg-color: #074734;
-    --header-text-color: #ffffff;
-    --box-text-color: #e7e4e4;
+    --table-border-color: #C6CDBE;
+    --header-bg-color: #707f78;
+    --nav-text-color: #EDE7DB;
+    --box-text-color: #465239;
+    --header-text-color: #465239;
 
  }
 
@@ -15,7 +16,8 @@
 /* Basic Page Styles */
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
     margin: 0;
     padding: 0;
     background-color: var(--header-bg-color);
@@ -25,8 +27,8 @@ body {
 
 nav {
     background-color: var(--header-bg-color);
-    padding: 15px; 
-    text-align: center;
+    padding: 50px; 
+    
 }
 
 nav ul {
@@ -42,9 +44,58 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: var(--bg-color);
+    color: var(--nav-text-color);
     font-weight: bold;
 }
+
+
+/* Header content */
+
+.box-model-demo {
+    width: 50%;
+    padding: 30px;
+    border: 30px var(--nav-text-color);
+    margin: 20px auto;
+    border-radius: 20px;
+    background-color: var(--table-border-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Header Section */
+
+header {
+    text-align: center; 
+    background-color: var(--bg-color);
+    /* Hardcoded red */
+    color: var(--header-text-color);    
+    /* Hardcoded white */
+    padding: 40px ;
+}
+
+/*Main Body*/
+
+    /* Box Model Demonstration */
+
+
+
+/* Main Content */
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: var(--table-border-color);    
+}
+
+img {
+    max-height: 
+    width: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    
+    
+}
+
 
 
 a.option {
@@ -52,4 +103,13 @@ a.option {
     /* Hardcoded red */
     text-decoration: none;
     width: 50%;
+}
+
+Footer {
+    text-align: center; 
+    background-color: var(--bg-color);
+    /* Hardcoded red */
+    color: var(--header-text-color);    
+    /* Hardcoded white */
+    padding: 40px ;
 }
