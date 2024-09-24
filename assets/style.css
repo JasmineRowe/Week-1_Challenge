@@ -20,7 +20,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: var(--bg-color);
-    <!--Navigation Bar-->
+    
 }
 
 /* Navigation Bar */
@@ -29,4 +29,22 @@ nav {
     background-color: var(--header-bg-color);
     padding: 15px; 
     text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--bg-color);
+        /* Hardcoded white */
+    font-weight: bold;
 }
