@@ -4,8 +4,8 @@
     --bg-color: #C6CDBE;
     --text-color: #000000;
     --table-border-color: #C6CDBE;
-    --header-bg-color: #707f78;
-    --nav-text-color: #EDE7DB;
+    --header-bg-color: #557b83;
+    --nav-text-color: #ffffff;
     --box-text-color: #465239;
     --header-text-color: #465239;
 
@@ -16,8 +16,10 @@
 /* Basic Page Styles */
 
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 40px;
+   
+     
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 20px;
     margin: 0;
     padding: 0;
     background-color: var(--header-bg-color);
@@ -25,25 +27,24 @@ body {
 
 /* Navigation Bar */
 
-nav {
-    background-color: var(--header-bg-color);
-    padding: 50px; 
-    
-}
+
 
 nav ul {
+   
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 40px;
 }
 
 nav ul li {
-    display: inline;
+    justify-content: right;
+    display: inline-flex;
     margin: 0 20px;
 }
 
 nav ul li a {
     text-decoration: none;
+    font-size: x-large;
     color: var(--nav-text-color);
     font-weight: bold;
 }
@@ -52,7 +53,7 @@ nav ul li a {
 /* Header content */
 
 .box-model-demo {
-    width: 50%;
+    width: 80%;
     padding: 30px;
     border: 30px var(--nav-text-color);
     margin: 20px auto;
@@ -64,21 +65,19 @@ nav ul li a {
 /* Header Section */
 
 header {
+
+  
+        
     text-align: center; 
-    background-color: var(--bg-color);
-    /* Hardcoded red */
-    color: var(--header-text-color);    
-    /* Hardcoded white */
+    color: var(--nav-text-color);    
     padding: 40px ;
 }
 
 /*Main Body*/
 
-    /* Box Model Demonstration */
-
-
 
 /* Main Content */
+
 
 .content {
     display: flex;
@@ -100,7 +99,6 @@ img {
 
 a.option {
     color:var(--header-bg-color);
-    /* Hardcoded red */
     text-decoration: none;
     width: 50%;
 }
@@ -108,8 +106,6 @@ a.option {
 Footer {
     text-align: center; 
     background-color: var(--bg-color);
-    /* Hardcoded red */
     color: var(--header-text-color);    
-    /* Hardcoded white */
-    padding: 40px ;
+    padding: auto;
 }
