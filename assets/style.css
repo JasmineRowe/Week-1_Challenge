@@ -87,7 +87,7 @@ header {
 }
 
 img {
-    max-height: 
+    max-height: 20px;
     width: 20px;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
