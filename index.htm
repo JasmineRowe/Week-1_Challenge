@@ -18,7 +18,7 @@
       <ul> 
           <li><a href="#">HOME</a></li>
           <li><a href="#">ABOUT</a></li>
-          <li><a href="#">SERVICES</a></li>
+          <li><a href="#">PROJECTS</a></li>
           <li><a href="#">CONTACT</a></li>
       </ul>
   </nav>
@@ -30,22 +30,50 @@
     <h1>Jasmine Rowe</h1>
     <h2>  Creative Web Studio </h2> 
 
+<div> 
+    <p>Full Stack Web Development: HTML, CSS, Javascript and Python </div>
+</Header>
 
 
-<!--Hiding the photo for a while-->
 
 
     <!-- Main Content Section --> 
 
-     
-</Header>
-
-
   <main>
+
     <section class="box-model-demo">
-        <h2>Where ideas spark </h2>
-        <p>Full Stack Web Development, fluent in HTML, CSS, Javascript and Python </p>
+
+        <h2>About</h2>
+   
+        <div> I love patterns and connections. <P></P></div>
+
+
+        <img src="assets/jasmine_busking.jpg" alt="jasmine busking">
+
     </section>
+
+    <section class ="project_header">
+        <h1>Projects</h1>
+    </section>
+
+
+    <section class="products">
+        <div class="project_box">
+            <P>Entering text for project</P>
+        </div>
+           
+        <div class="project_box">
+            <P>Entering text for project</P>
+        </div>
+
+        <div class="project_box">
+            <P>Entering text for project</P>
+        </div>
+    </section>
+
+    
+   
+
 
     <section class="box-model-demo">
         <h2>Contact</h2>
@@ -60,8 +88,20 @@
     <label for="Email"> Email:</label>
     <input type="email" id="Email" Name="Email"> <br><br>
 
-    <label for="tel"> Tel:</label> 
-    <input type="tel" id="tel" Name="Tel"> </Strong> <br> 
+    <label for="tel"> Mobile:</label> 
+    <input type="tel" id="tel" Name="Tel"> </Strong> <br> <P></P>
+
+    <label for="message"> Message:</label><P></P>
+    <textarea for="Message" id="message" Name="Message" rows="4" cols="50"> </textarea>
+
+    <form action="/action_page.php">
+        <p>Please select how you would like to be contacted:</p>
+        <input type="radio" id="Tel" name="method_of_contact" value="tel">
+        <label for="Tel">Tel</label><br><br>
+        <input type="radio" id="Email" name="method_of_contact" value="Email">
+        <label for="Email">Email</label><br><br>
+        <input type="radio" id="Post" name="method_of_contact" value="Post">
+        <label for="Post">Post</label><br>
 
 <p> <input type="button" value="Submit"></button> </p>
     </section>
