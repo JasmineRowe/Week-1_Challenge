@@ -49,39 +49,59 @@ nav ul li a {
 }
 
 
+nav ul li a:hover {
+    color: #557b83;
+    
+
+}
 /* Header content */
 
 
 
 /* About content */
 
-.About {
+.about_header {
+        background-color: #ffffff;
+        color: #557b83;
+        padding-top: 20px;
+        text-align: center;
+}
 
+.About {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
     background-color: #ffffff;
-    padding-top: 80px;
+    padding-top: 30px;
     color: #bbb193;
     text-align: center;
     padding-bottom: 50px;
- 
-
-
 }
 
-
+.bio{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    color: #557b83;
+    text-align: justify;
+    padding-left: 100px;    
+}
 
 img {
-    max-height: 500px;
-    width: 200px;
+    max-height: 800px;
+    width: 400px;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);  
+    margin-left: 200px;
  
     
 }
 
 .box-model-demo {
     width: 80%;
-    padding: 30px;
+    padding: 20px;
     border: 30px var(--nav-text-color);
     margin: 30px;
     border-radius: 20px;
@@ -116,27 +136,28 @@ img {
 }
 
 .projects {  
-    
     display: flex;    
-    position: relative;
-    left: 25%;
-    width: 80%;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
     padding: 30px;
     
 }
 
 .project_box {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     background-color: #ffffff;
     padding-bottom: 20px;
     margin: 30px;
     color: #bbb193;
+    flex: 1 1 600px;
 }
 
 .project_box:hover {
 
-    box-shadow: 0 4px 8px #000000;
+    box-shadow: 0 20px 30px #000000;
+    background-color: #f6f0ed;
 
 }
 
@@ -148,37 +169,137 @@ header {
     padding: 40px ;
 }
 
-/*Contact*/
+/*Contact
+
+display: flex;
+    flex-wrap: nowrap;
+    flex-flow: column;
+    justify-content: space-evenly;*/
 
 .Contact {
-
-    background-color: #bbb193;
-}
-
-
-
-
-/*  Content */
-
-
-.content{
     display: flex;
-    justify-content: space-around;
-    padding: 50px;
-    background-color: #bbb193;   
+    flex-flow: inherit;
+    justify-content: center;
+    text-align: left;
+    background-color: #bbb193;
+    width: 100%;
+    height: 50%;
+    padding-top;: 30px   
+}
+    
+
+.contact_header {
+    width: 100%;
+    background-color: #bbb193;
+    color: #ffffff;
+    padding-top: 20px;
+    text-align: center;
+      
+}
+
+input[type=text] {
+    
+    width: 600px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 35px;
+}
+
+input[type=Email], select {
+    width: 600px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 35px;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+  }
+
+input[type=Tel], select {
+    width: 600px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 35px;
+}
+
+input[type=message], select {
+    width: 600px;
+    height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=button] {
+    background-color: #557b83;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 3px;
+    
 }
 
 
 
-a.option {
-    color:var(--header-bg-color);
-    text-decoration: none;
-    width: 50%;
+.radio_buttons ul{
+    position: relative;
+    left: 40%;
+    text-align: justify;
 }
 
-Footer {
-    text-align: center; 
-    background-color: var(--bg-color);
-    color: var(--header-text-color);    
-    padding: auto;
+input[type=button]:hover {
+    background-color: #c2948a;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
+
+
+/*  Content /*/
+
+
+footer {
+    display:flex;
+    justify-content: space-between;
+    text-align: justify;
+    font-size: smaller;
+    background-color: #ffffff;
+    padding-top: 30px;
+    color: #bbb193;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+    
+}
+
+
+
+/*
+.company_info {
+
+    text-align: left;
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
